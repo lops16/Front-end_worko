@@ -1,0 +1,29 @@
+@import "../../styles/variables.scss";
+
+.flex-grow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-size: $h2-size-mobile;
+  }
+
+  p {
+    text-align: center;
+    margin-bottom: 6px;
+  }
+
+  a {
+    color: $main-color;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    .ArrowLeftIcon {
+      margin-right: 0.5em;
+      color: $main-color;
+    }
+  }
+}
